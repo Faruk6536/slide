@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+  <!-- header start -->
+  <header class="top_header">
+    <div class="header-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="logo">
+              <a href="index.html">
+                RUNO
+              </a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="menubar d-flex align-items-center justify-content-end">
+              <ul class="d-flex gap-2 justify-content-end">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+              <ul class="d-flex gap-1 custom">
+                <li><a href=""><i class="fa-brands fa-facebook-f youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube youtube"></i></li>
+            
+              </ul>
+              <ul class="custom">
+                <li style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //modal -->
+       <!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <form action="">
+        <input type="search" class="form-control" placeholder="ddttxd">
+        <button type="submit" class="btn btn-sm btn-primary mt-2">Search</button>
+       </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </div>
+    <div id="slder-area">
+      <div class="single-slider">
+        <img src="imegas/slider img/slide im.jpg" alt="">
+  
+        <div class="container">
+          <div class="slide_content">
+            <span>ADVENTURE</span>
+            <h2>Richird Norton photorealistic <br> rendering as real photos</h2>
+            <div class="slide_paragraph d-flex gap-2">
+              <div class="date">
+                <span class="borderItem">08.08.2021</span>
+              </div>
+              <p>Progressively incentivize cooperative systems through technically sound  <br> functionalities. The credibly
+                productivate seamless data.</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <div class="single-slider">
+        <img src="imegas/slider img/slide img (2).jpg" alt="">
+  
+        <div class="container">
+          <div class="slide_content">
+            <span>ADVENTURE</span>
+            <h2>Richird Norton photorealistic <br> rendering as real photos</h2>
+            <div class="slide_paragraph d-flex gap-2">
+              <div class="date">08.08.2021</div>
+              <p>Progressively incentivize cooperative systems through technically sound  <br> functionalities. The credibly
+                productivate seamless data.</p>
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+      <div class="single-slider">
+        <img src="imegas/slider img/slide img (3).jpg" alt="">
+  
+        <div class="container">
+          <div class="slide_content">
+            <span>ADVENTURE</span>
+            <h2>Richird Norton photorealistic <br> rendering as real photos</h2>
+            <div class="slide_paragraph d-flex gap-2">
+              <div class="date">
+                <span class="borderItem">08.08.2021</span>
+              </div>
+              <p>Progressively incentivize cooperative systems through technically sound <br>functionalities. The credibly
+                productivate seamless data.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- header end -->
+   <div class="container">
+    <h2 class="topics">Popular topics</h2>
+    <div class="click-abol">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-danger" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Adventure</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Travel</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Fashion</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Technology</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Branding</button>
+        </li>
+      </ul>
+      <div class="all">
+        <a href="#">View All</a>
+      </div>
+    </div>
+  </div>
+  <!-- slid section end -->
+
+
+  <!-- card degine start -->
+
+ <section class="container">
+    <div class="part3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/Blog Image (6).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Dream destinations to visit this year in Paris</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/10.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By Jennifer Lawrence</h5>
+                     <span>Thinker& Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/bolog im 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small>BRAND</small>
+              <h6>FASHION</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Breathtaking first-person photos around Europe</h5>
+              <p class="card-text mt-3 para">This is a short Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus soluta asperiores iste veniam inventore quia modi .</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/5.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By David Arthur</h5>
+                     <span>Designer& Jannalist</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/Blog Image (9).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">What collectors need to know about authenticity</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content Life is more then beter is a long .</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/6.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>Ms.Jarina Mion</h5>
+                     <span> Designer& Devoloper</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/blog img 10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Instagram artists with great photography skills</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/7.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By Jennifer Lawrence</h5>
+                     <span>Thinker& Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <diV class="part-2">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/block img11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Thins to know before visiting Cave in Germany</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/8.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By Jennifer Lawrence </h5>
+                     <span>Thinker & Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/blog side12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small>TRAVEL</small>
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Nina Smith vibrant work collab with Nike Dunk</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content.this is a big oparsunaty and yuor louk betre.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/9.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By David Tomas </h5>
+                     <span>Thinker& Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 boder">
+            <img src="imegas/contant img/logo blog 14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">Richard Norton real photos photorealistic rendering as </h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content this is a mongolgroho mali khan brter.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/5.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By Andrey Edison</h5>
+                     <span>Thinker& Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+         
+            <div class="card h-100 boder">
+            <img src="imegas/contant img/blog img15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6>ADVENTURE</h6>
+              <span>08.08.2021</span>
+              <h5 class="card-title mt-3 color">25 quality collectors toys inspired by famous films</h5>
+              <p class="card-text mt-3 para">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="think">
+                <div class="degin">
+                  <img src="imegas/man.logo/6.jpg" alt="">
+                </div>
+                <div class=" Designer">
+                  <h5>By Lociana Lawrence</h5>
+                     <span>Photo graphar</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </diV>
+  </section>
+  <!-- card deginn end -->
+  
+<div class="container-fluid bus">
+  <div class="photo-shoote">
+    <img src="imegas/slider img/Travel.jpg" alt="">
+  </div>
+  <div class="shoote">
+    <h4>Richird Norton photorealistic<br> 
+      rendering as real photos.</h4>
+     <p>Progressively incentivize cooperative systems through technically sound <br>
+      functionalities. The credibly productivate seamless data.</p>
+     <img src="imegas/part .logo/ji.jpg" alt="">
+     <h6>08.08.2021</h6>
+  </div>
+ 
+</div>
+
+
+<div class="container pick">
+  
+    <h3>Editor’s Pick</h3>
+  </div>
+
+
+  <div class="container thimbalit">
+    <div class="row">
+      <div class="col-6 thimbail-degine">
+        <div class="thimbail-degine">
+          <img src="imegas/part .logo/Rectangle 8.jpg" alt="">
+        </div>
+        <div class="thimbail">
+          
+
+         
+          <span>08.08.2021</span>
+          <h5>Richird Norton photorealistic<br> rendering as real photos</h5>
+          <p>Progressively incentivize cooperative systems through<br> technically sound functionalities. The credibly productivate<br> seamless data.</p>
+         
+
+        </div>
+      
+      </div>
+      <div class="col-6 thimbail-degine">
+        <div class="">
+          <img src="imegas/part .logo/img.jpg" alt="">
+        </div>
+        <div class="thimbail">
+         
+          <span>08.08.2021</span>
+          <h5>Richird Norton photorealistic<br> rendering as real photos</h5>
+          <p>Progressively incentivize cooperative systems through<br> technically sound functionalities. The credibly productivate<br> seamless data.</p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+  <script>
+
+  </script>
+
+
+</body>
+
+</html>
